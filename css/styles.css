@@ -110,10 +110,18 @@ button{
 }
 
 
+.imagenfoot a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px 10px 0;
+  
+}
+
+
 
 .foot{
   background: #C29B61;
-  padding: 50px, 10px;
+  padding: 50px  10px;
 }
 
 
@@ -176,15 +184,8 @@ input[type='radio']:checked:after {
 }
 
 
-.imagenfoot a{
-  color: white;
-  text-decoration: none;
-  
-}
 
-.imagenfoot strong {
-  display:block;
-}
+
 
 span{
   margin-right: 15px;
