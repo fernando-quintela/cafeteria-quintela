@@ -1,0 +1,238 @@
+
+
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0px;
+}
+
+
+button{
+  background: #9c540c;
+  padding: 6px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.contenedor{
+  width: 800px;
+  margin: auto;
+ 
+}
+
+.titulo {
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+
+.titulo-a{
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+.titulo-b{
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.cafes{
+  color: rgb(128, 95, 36);
+  margin-bottom: 60px;
+  
+}
+
+.cafe{
+  border: 1px solid #412B19;
+  padding: 10px;
+  margin: 10px;
+  /* overflow: hidden;  para que no se desborde de la caja   */
+  border-radius: 8px;
+}
+
+.cafes h2{
+  font-size: 35px;
+}
+
+#portada{
+  background-image:url('../img/background.jpg') ;
+  background-size: cover;
+  color: white;
+  
+  padding: 20px;
+}
+.portada button{
+  margin-bottom: 70px;
+
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+  position:absolute ;
+  right: 15px;
+  
+}
+
+.menu li{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.logotipo{
+  display: inline-block;
+
+}
+
+.header{
+  position: relative;
+}
+
+
+
+.imagenfoot{
+   display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.imagenfoot img{
+  display: block;
+}
+
+.imagenfoot strong {
+  display:block;
+}
+
+
+
+.foot{
+  background: #C29B61;
+  padding: 50px, 10px;
+}
+
+
+.rig{
+  float: right;
+  position: relative;
+  top: -127px;
+  
+}
+
+.left{
+  float: left;
+  position: relative;
+  /* top: 80px; */
+}
+
+
+
+.cafe ol{
+  padding: 0px;
+}
+
+.cafe.granoscafe{
+  height: 190px;
+
+}
+
+.contenedor-cafe-a{
+padding-left:20px ;
+position: relative;
+bottom: 36px;
+}
+.contenedor-cafe-b{
+ margin-left: 370px;
+ position: relative;
+ bottom: 115px;
+
+}
+input, textarea{
+  outline: 0;
+  border-radius: 7px;
+  border:1px solid white ;
+}
+
+input:focus, textarea:focus{
+  background: whitesmoke;
+}
+
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #836123;
+  content:'';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+
+}
+
+
+.imagenfoot a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.imagenfoot strong {
+  display:block;
+}
+
+span{
+  margin-right: 15px;
+  margin-top: 8px;
+}
+
+.foot .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario{
+  display: flex;
+  color: white;
+  width: 400px;
+  
+  /* padding: 50px 10px; */
+}
+
+/* font-family: 'Allerta', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+
+.col1, .col2{
+  display: flex;
+  flex-direction: column;
+}
+
+.col1{
+  margin-right: 15px;
+}
+
+.col2{
+  align-items: flex-start;
+}
+
+.col2 .button{
+  margin-top: 15px;
+}
+
+.intereses label{
+  font-size: 12PX;
+}
+
+.formulario label, .genero, .intereses{
+  margin-bottom: 10px;
+}
+
+.genero{
+  margin-top: 10px;
+  font-size: 12px;
+}

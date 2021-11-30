@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>cajeteria - prueba</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+   
+  
+  <!-- PORTADA -->
+  <section id="portada" class="portada">
+    <header id="header" class="header contenedor">
+        <figure class="logotipo">  <!-- logo tipo -->
+            <img src="img/logo.png" alt="logo" width="60px">
+        </figure>
+         <nav class="menu">  <!--menu -->
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="#cafes">CAFE</a></li>
+              <li><a href="precios.html">PRECIOS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div class="contenedor">
+      <h1 class="titulo">Cafe Time Saborint</h1>
+      <h3 class="titulo-a">El mejor cafe intenso para momentos especiales</h3>
+      <!-- boton -->
+      <button>conoce más</button>
+    </div>
+  </section>
+
+   <section id="cafes" class="cafes contenedor"> <!--cafes -->
+
+    <h2>nuestro cajes</h2> <!--titulo-->
+     <article class="cafe granoscafe"> <!--cafe 1 -->
+    <img class="rig" src="img/cafetime.png" alt="ERROR" width="350px">
+    <div class="contenedor-cafe-a">
+     <h3 class="titulo-b">Expreso</h3>
+     <ol>
+         <li>sabor intenso</li>
+         <li>cafe ligero</li>
+         <li>cafe extra cafeina</li>
+     </ol>
+    </div>
+    </article>
+
+    <article class="cafe granoscafe"><!--cafe 2-->
+        <img class="left" src="img/cafetimegranos.png" alt="error" width="350px">
+        <div class="contenedor-cafe-b">
+       <h3 class="titulo-b">grano finos</h3>
+       <ol>
+        <li>primera selecion</li>
+        <li>cafe ligero</li>
+        <li>calidad superior</li>
+    </ol>
+        </div>
+    </article>
+
+  </section>
+
+  <footer class="foot">
+  
+    <div class="contenedor">
+
+      <div class="imagenfoot">
+        <img src="img\imagenfooter.png" alt="casacafe" width="300">
+
+        <a href="tel:+56944073691"> <strong>telefono</strong> <span>944073691</span></a>
+
+        <a href="mailto:contacto@gmail.com"> <strong>E-mail</strong> <span>contacto@gmail.com</span></a>
+      </div>
+
+  
+      <form class="formulario">
+
+  <div class="col1">      
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required name="nombre">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required name="email">
+
+        <div class="genero">
+          <label for="mujer"></label>
+          <input type="radio" id="mujer" name="genero" value="muger" required> mujer
+
+          <label for="hombre"></label>
+          <input type="radio" id="hombre" name="genero" value="hombre" required> hombre
+        </div>
+       
+        <div class="intereses">
+           <label for="cotizacios" >
+           <input type="checkbox" id="cotizacion" name="cotizacion" value="cotizacion"> cotizacion
+           </label>
+
+           <label for="reclamos" >
+           <input type="checkbox" id="reclamos" name="reclamos" value="reclamos"> reclamos
+           </label>
+
+           <label for="obserbaciones" >
+           <input type="checkbox" id="obserbaciones" name="obserbaciones" value="obserbaciones">obserbaciones
+           </label>
+
+           <label  for="otros">
+           <input type="checkbox" id="otros" name="otros" value="otros"> otros
+           </label>
+        </div>
+  </div>
+  
+        <div class="col2">
+          <label for="comentario">comentario</label>
+          <textarea name="" id="comentario" cols="30" rows="7"></textarea>
+          <input class="button" type="submit" value="Enviar">
+        </div>
+
+
+      </form>
+
+
+    
+  </div>  
+  </footer>
+    
+</body>
+</html>
+
