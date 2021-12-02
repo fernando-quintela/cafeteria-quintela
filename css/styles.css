@@ -6,12 +6,17 @@ body {
 }
 
 
-button{
+.button{
   background: #9c540c;
   padding: 6px;
   color: white;
-  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 12px;
   border: none;
+  padding: 8px 12px;
+  text-decoration: none;
+  background: linear-gradient(to left, #7c460a, #df9f5f);
 }
 
 .contenedor{
@@ -45,11 +50,12 @@ button{
 }
 
 .cafe{
-  border: 1px solid #412B19;
+  /* border: 1px solid #412B19; */
   padding: 10px;
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   /* overflow: hidden;  para que no se desborde de la caja   */
   border-radius: 8px;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.4);
 }
 
 .cafes h2{
@@ -60,13 +66,13 @@ button{
   background-image:url('../img/background.jpg') ;
   background-size: cover;
   color: white;
-  
+  height: 500px;
   padding: 20px;
 }
-.portada button{
+/* .portada button{
   margin-bottom: 70px;
 
-}
+} */
 
 .menu{
   font-size: 24px;
@@ -86,7 +92,11 @@ button{
   text-decoration: none;
 }
 .logotipo{
-  display: inline-block;
+display: inline-block;
+font-family: 'pacifico', cursive;
+font-size: 50px;
+margin-left: 0;
+margin-top: -12px;
 
 }
 
@@ -183,7 +193,16 @@ input[type='radio']:checked:after {
 
 }
 
-
+input[type='checkbox']:checked:after{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: #977639;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
 
 
 
