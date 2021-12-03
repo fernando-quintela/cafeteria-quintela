@@ -1,11 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat&family=Pacifico:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="css/styles.css">
    
   <title>PRECIIOS</title>
 </head>
 <body>
-  <h1>Pagina de Precios</h1>
+
+  
+  <!-- header -->
+  <header id="header" class="header background-general">
+   <div class="contenedor"> 
+    <figure class="logotipo">  <!-- logo tipo -->
+        <!-- <img src="img/logo.png" alt="logo" width="60px"> -->
+        <span>cafe Time</span>
+    </figure>
+
+     <nav class="menu">  <!--menu -->
+      <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="index.html#cafes">CAFE</a></li>
+          <li><a href="precios.html">PRECIOS</a></li>
+      </ul>
+    </nav>
+   </div>
+</header>
+
+ <!-- header -->
+
+ <!-- CONTENIDO -->
+   <section class="tabla">
+     <div class="contenedor">
+       <table>
+         <thead>
+           <tr>
+             <th>producto</th>
+             <th>precios</th>
+             <th>descripcion</th>
+           </tr>
+         </thead>
+         <tbody>
+
+           <tr>
+             <td>capuchino</td>
+             <td>$1000</td>
+             <td>sabor mega y sabroso</td>
+           </tr>
+           <tr>
+             <td>mocachino</td>
+             <td>$1800</td>
+             <td>sabor a chocolate</td>
+           </tr>
+           <tr>
+             <td>vainilla late</td>
+             <td>$950</td>
+             <td>cremoso y delicioso cafe sabor vainilla</td>
+           </tr>
+         </tbody>
+       </table>
+     </div>
+
+   </section>
+
+
+  <!-- CONTENIDO -->
+
+ <!-- <footer> -->
+
+  <footer class="foot">
+  
+    <div class="contenedor">
+
+      <div class="imagenfoot">
+        <img src="img\imagenfooter.png" alt="casacafe" width="300">
+
+        <a href="tel:+56944073691"> <strong>telefono</strong> <span>944073691</span></a>
+
+        <a href="mailto:contacto@gmail.com"> <strong>E-mail</strong> <span>contacto@gmail.com</span></a>
+      </div>
+
+  
+      <form class="formulario">
+
+  <div class="col1">      
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required name="nombre">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required name="email">
+
+        <div class="genero">
+          <label for="mujer"></label>
+          <input type="radio" id="mujer" name="genero" value="muger" required> mujer
+
+          <label for="hombre"></label>
+          <input type="radio" id="hombre" name="genero" value="hombre" required> hombre
+        </div>
+       
+        <div class="intereses">
+           <label for="cotizacios" >
+           <input type="checkbox" id="cotizacion" name="cotizacion" value="cotizacion"> cotizacion
+           </label>
+
+           <label for="reclamos" >
+           <input type="checkbox" id="reclamos" name="reclamos" value="reclamos"> reclamos
+           </label>
+
+           <label for="obserbaciones" >
+           <input type="checkbox" id="obserbaciones" name="obserbaciones" value="obserbaciones">obserbaciones
+           </label>
+
+           <label  for="otros">
+           <input type="checkbox" id="otros" name="otros" value="otros"> otros
+           </label>
+        </div>
+  </div>
+  
+        <div class="col2">
+          <label for="comentario">comentario</label>
+          <textarea name="" id="comentario" cols="30" rows="7"></textarea>
+          <input class="button" type="submit" value="Enviar">
+        </div>
+
+
+      </form>
+
+
+    
+  </div>  
+  </footer>
+
+<!-- </FOOter> -->
+
 </body>
 </html>

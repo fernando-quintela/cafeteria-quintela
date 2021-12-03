@@ -22,7 +22,7 @@ body {
 .contenedor{
   width: 800px;
   margin: auto;
- 
+  position: relative;
 }
 
 .titulo {
@@ -69,6 +69,17 @@ body {
   height: 500px;
   padding: 20px;
 }
+
+.background-general{
+  background: #5e3609;
+ box-shadow: 0 0 15px 0 black;
+ height: 85px;
+ color: white;
+}
+
+
+
+
 /* .portada button{
   margin-bottom: 70px;
 
@@ -255,4 +266,25 @@ font-family: 'Montserrat', sans-serif; */
 .genero{
   margin-top: 10px;
   font-size: 12px;
+}
+
+table{
+  width: 100%;
+}
+th{
+  background: #493b39;
+  color: white;
+  padding: 10px 20px;
+}
+td{
+  padding: 20px;
+}
+
+table, td, th{
+  border: 2px solid hsl(46, 92%, 24%);
+  border-collapse: collapse;
+}
+.tabla{
+  margin: 50px 0;
+  
 }
