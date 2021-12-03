@@ -229,7 +229,7 @@ span{
 .formulario{
   display: flex;
   color: white;
-  width: 400px;
+  width: 430px;
   
   /* padding: 50px 10px; */
 }
@@ -270,7 +270,9 @@ font-family: 'Montserrat', sans-serif; */
 
 table{
   width: 100%;
+  margin-bottom: 60px;
 }
+
 th{
   background: #493b39;
   color: white;
@@ -281,9 +283,37 @@ td{
 }
 
 table, td, th{
-  border: 2px solid hsl(46, 92%, 24%);
-  border-collapse: collapse;
+  font-size: 20px;
+  border: 0;
+  
 }
+
+i{
+font-size: 12px;
+}
+
+.precios{
+  border-radius: 50%;
+  background: #9c540c;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  padding: 15px 7px;
+  width: 40px;
+}
+
+.titulo-precios{
+  display: flex;
+  color: rgb(65, 51, 40);
+  font-size: 45px;
+  font-family: 'pacifico', cursive;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 .tabla{
   margin: 50px 0;
   
