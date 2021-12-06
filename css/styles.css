@@ -2,8 +2,13 @@
 
 body {
   font-family: 'Allerta', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0px;
 }
+
+
 
 
 .button{
@@ -316,5 +321,5 @@ font-size: 12px;
 
 .tabla{
   margin: 50px 0;
-  
+  flex: 1;
 }
