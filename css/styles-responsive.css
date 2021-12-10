@@ -57,3 +57,63 @@
    margin: 0;
  }
 }
+
+/* fin de tablet */
+
+/* cualquier dimencion inferior de 767  vamos a cambiar el footer*/
+
+@media screen and (max-width: 767px){
+ .foot .contenedor{
+   display: block;
+ }
+ textarea{
+   width: 100%;
+ }
+
+ .foot img{
+   width: 250px;
+ }
+ .imagenfoot{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+ }
+
+ .genero label {
+  font-size: 16px;
+ }
+
+ .intereses label{
+   display: block;
+   font-size: 16px;
+
+ }
+
+ .formulario .button{
+   width: 100%;
+   box-shadow: 0 0 10px 0 black;
+ }
+
+ .formulario{
+   display: block;
+   width: 300px;
+   margin: 0 auto;
+ }
+
+ .col1{
+   margin: 0;
+ }
+input[type="text"],
+input[type="email"] {
+  font-size: 16px;
+  padding: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  position: relative;
+  zoom: 1.5;
+  top: 3px;
+}
+
+}
