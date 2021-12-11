@@ -1,3 +1,20 @@
+.burguer-button{
+  width: 40px;
+  line-height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  height: 40px;
+  background: #dd944c;
+  display: inline-block;
+  position: absolute;
+  z-index: 3;
+  left: 20px;
+  top: 20px;
+  position: fixed;
+  display: none;
+}
+
+
 /* 768 para tables y esta dentro de los 800px que vamos a trabajar */
 
 @media screen and (max-width: 800px){
@@ -143,6 +160,58 @@ input[type="checkbox"] {
 /* fin de table */
 
 @media screen and (max-width: 500px){
+
+  .portada .contenedor{
+    position: static;
+  }
+
+  /* pagina de precios */
+  .header{
+    position: static;
+  }
+  .header .contenedor{
+    position: static;
+  }
+  .titulo-precio{
+    font-size: 32px;
+
+  }
+  .titulo-precio img{
+    width: 60px;
+  }
+
+
+
+  .burguer-button{
+    display: block;
+  }
+  .portada .button{
+    display: block;
+  }
+
+  .menu{
+    /* border: 1 px solid tomato; */
+    background-color: rgba(100, 78, 53, 0.8);
+    position: fixed;
+    left: -100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.7s;
+    
+  }
+  .active{
+    left: 0;
+  }
+
+  .menu ul{
+    flex: 1;
+  }
+
   .menu li {
     display: block;
     margin: 0;
